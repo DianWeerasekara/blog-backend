@@ -1,0 +1,22 @@
+{
+  "name": "blog-backend",
+  "version": "1.0.0",
+  "description": "Blog API backend for the assingment of shoutOUT Labs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianWeerasekara/blog-backend.git"
+  },
+  "author": "Dian Weerasekara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianWeerasekara/blog-backend/issues"
+  },
+  "homepage": "https://github.com/DianWeerasekara/blog-backend#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

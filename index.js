@@ -1,7 +1,9 @@
 const express = require("express");
+var cors = require('cors')
 const blogs = require("./db/blogs");
 
 const app = express();
+app.use(cors())
 
 app.use(express.json());
 
@@ -25,7 +27,7 @@ app.post('/blogs', (req,res) => {
     };
     blogs.push(newBlog);
 
-    res.status(200).send({
+    res.status(201).send({
         message: "New Blog created!!",
         data: newBlog
     });
